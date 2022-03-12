@@ -1,0 +1,241 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+body{
+	background: url(image/kandy/bus.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif;
+
+}
+.login-box{
+	width: 320px;
+	height: 420px;
+	background: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	top: 80%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-58%,-50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+	margin-top: 150px;
+
+
+}
+.train img{
+	width: 100%;
+	opacity: 80%;
+}
+.avatar{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: -50px;
+	left: calc(50% - 50px);
+}
+.h1{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+}
+.login-box p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+.login-box input{
+	width: 100%;
+	margin-bottom: 20px;
+
+}
+.login-box input[type="text"], input[type="password"]{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+.login-box input[type="submit"]{
+	border: none;
+	outline: none;
+	height: 40px;
+	background: #1c8adb;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 28px;
+}
+.login-box input[type="submit"]:hover{
+	cursor: pointer;
+	background: #39dc79;
+	color: #300;
+}.login-box a{
+	text-decoration: none;
+	font-size: 14px;
+	color: #fff;
+
+}
+.login-box a:hover{
+	color: #39dc79;
+}
+
+#nav-bar
+{
+	position: sticky;
+	top: 0;
+	z-index: 10;
+
+}
+#gallary1{
+	background-color: #efefef;
+}
+.navbar-brand img{
+	height: 80px;
+	padding-left:30px;
+}
+.navbar-nav li{
+	padding: 0 10px;
+
+}
+.navbar-nav li:hover{
+ color: #fff;
+}
+.navbar-nav li a{
+	float: right;
+	text-align: left;
+}
+#nav-bar ul li a:hover{
+	color: #007bff!important;
+}
+.navbar{
+	background: #000;
+}
+.navbar-toggler{
+	border:none!important;
+}
+.nav-link{
+	color: #fff!important;
+	font-weight: 600;
+	font-size: 16px;
+}
+#slider{
+	width: 100%;
+}
+.carousel-caption{
+	top: 50%;
+	transform: translateY(-50%);
+	bottom: initial!important;
+}
+.carousel-caption h5{
+	color: #000;
+	font-size: 42px;
+}
+.carousel-item img{
+	width: 2000px;
+	height: 550px;
+}
+.nav-item:hover{
+ 	background-color: #fff;
+ 	color: #fff;
+ 	cursor: pointer;
+	transition: 0.7s;
+}
+/*--------------image gallary--------*/
+body{
+	font-family: sans-serif;
+}
+h1{
+	text-align: center;
+	color: #ffc107;
+	margin: 30px 0 50px;
+	padding-top: 30px;
+	padding-bottom: px;
+}
+h2{
+	text-align: center;
+	color: #000;
+	margin-top: 100px;
+
+}
+h3{
+	color:#dc3545; 
+}
+.gallery{
+	margin: 100px 60px;
+}
+.gallery a{
+	width: 1500px;
+}
+.gallery img{
+	width: 300px;
+	padding: 5px;
+	/*filter: grayscale(100%);*/
+	transition:1s;
+}
+.gallery img:hover{
+	filter:grayscale(0);
+	transform: scale(1.1);
+}
+.gallery p{
+	text-align: right;
+}
+.right{
+	text-align: right;
+	margin-right: 20px;
+}
+#run{
+	margin-top: 0px;
+	padding: 0;
+	font-family: sans-serif;
+
+}
+.box{
+	position: absolute;
+	top: 300px;
+	left: 700px;
+	transform: translate(-50%,-50%);
+	width: 1000px;
+	padding: 20px;
+	box-sizing: border-box;
+	background: #fff;
+	border-radius: 4px;
+	box-shadow: 0 5px 15px rgba(0,0,0,.5);
+	display: flex;
+	transition: .5s;
+}
+.box:hover{
+	box-shadow: 0 15px 30px rgba(0,0,0,.5);
+}
+.box .imgBx{
+	width: 150px;
+	flex: 0 0  150px;
+}
+.box .imgBx img{
+	max-width: 100%;
+	height: 150px;
+}
+.box .content{
+	padding-left: 20px;
+}
+.box .content h2{
+	margin: 0;
+	padding-left: 0;
+	color: #ff005c;
+	font-size: 22px;
+}
+.box .content p{
+	margin: 0;
+	padding: 10px 0 0;
+	text-align: justify;
+}
+
+/*.gallery iframe{
+	padding-top: 100px;
+	width: 300px;
+	height:auto;

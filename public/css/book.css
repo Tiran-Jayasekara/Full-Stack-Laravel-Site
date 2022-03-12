@@ -1,0 +1,84 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#nav-bar
+{
+	position: sticky;
+	top: 0;
+	z-index: 10;
+
+}
+#gallary1{
+	background-color: #efefef;
+}
+.navbar-brand img{
+	height: 80px;
+	padding-left:30px;
+}
+.navbar-nav li{
+	padding: 0 10px;
+
+}
+.navbar-nav li a{
+	float: right;
+	text-align: left;
+	margin-right: 100px;
+	font-size: 30px;
+}
+#nav-bar ul li a:hover{
+	color: #007bff!important;
+}
+.navbar{
+	background: #fff;
+}
+.navbar-toggler{
+	border:none!important;
+}
+.nav-link{
+	color: #555!important;
+	font-weight: 600;
+	font-size: 16px;
+}
+.content{
+	width: 1200px;
+	background-color:#efefef;
+	height:auto;
+	margin-left: 160px;
+	border-radius: 20px;
+	margin-top: 20px;
+}
+.one{
+	width: 300px;
+	margin: 10px;
+	float: left;
+}
+.one img{
+	width: 250px;
+	height:250px;
+	margin: 20px;
+	float: left;
+	border-radius: 20px;
+	margin-top: 70px;
+	margin-left: 100px;
+}
+.two{
+	width: 700px;
+	float: right;
+}
+.two h3{
+	margin-top: 30px;
+	margin-left: 250px;
+	color: red;
+}
+.two p{
+	font-style: italic;
+	align-self: center;
+	margin-left: 200px;
+	margin-bottom: 20px;
+}
+.two h5{
+	color:black;
+	font-size: 20px;
+	font-weight: bold;
+}
