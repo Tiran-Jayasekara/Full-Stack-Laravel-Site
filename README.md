@@ -1,5 +1,12 @@
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
+
+![Screenshot 2023-11-15 164107](https://github.com/Tiran-Jayasekara/Full-Stack-Laravel-Site/assets/70306643/ff61eeb8-8dbb-4c9f-b970-06f81cbaf833)
+![Screenshot 2023-11-15 164058](https://github.com/Tiran-Jayasekara/Full-Stack-Laravel-Site/assets/70306643/59fb8e1c-8b97-45e7-876f-f5e91b588c05)
+
+
+
+
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
